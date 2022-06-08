@@ -3,22 +3,41 @@
 // 1-MASALA
 ////--------------------------------------------------------------------------
 
-// const number = prompt("sonni kiriting!");
-// const numberTwo = prompt("2-sonni kiriting!");
-// const numberThree = prompt("3-soni kiriting!");
+// const number = Number(prompt("sonni kiriting!"))
+// const numberTwo = Number(prompt("2-sonni kiriting!"))
+// const numberThree = Number(prompt("3-soni kiriting!"))
 
-// const arrr = [number, numberTwo, numberThree ];
+// let numberAr = [];
 
-// const sss = numberTwo * 1
+// if(number== String || numberTwo == String || numberThree == String){
+//     console.log("xato");
+//     error.classList.remove("d-none");
 
-// arrr.forEach(e =>{
+// }else{
 
-// })
+//     numberAr.push(number)
+//     numberAr.push(numberTwo)
+//     numberAr.push(numberThree)
+
+//     let calcNumber = function(Num){
+//         let numberOne = 0
+//         for(let num of numberAr){
+//             numberOne += num
+//         }
+//         numberAr.push(numberOne)
+//         return numberOne
+//     }
+//     console.log(calcNumber(numberAr));
+// }
+
+
+
+
+
 
 
 
 ////--------------------------------------------------------------------------
-
 // 2-MASALA
 ////--------------------------------------------------------------------------
 
@@ -32,7 +51,7 @@
 
 // console.log(array);
 // //3
-// array[1] = "Classic"
+// array[Math.floor(array.length/2)] = "Classics"
 
 // console.log(array);
 // //4
@@ -47,11 +66,14 @@
 // console.log(array);
 
 
-////--------------------------------------------------------------------------
 
+
+
+
+
+////--------------------------------------------------------------------------
 // 3-MASALA
 ////--------------------------------------------------------------------------
-
 
 // let salaries = {
 // 	"Akmal": 1200,
@@ -60,36 +82,63 @@
 // }
 // const  sum = []
 
-// for(let item of salaries){
+// const calcPay = function(pay){
 
-//     sum.push(item)
+//     let paySalaries = 0
+//     for(let p of pay){
+//         paySalaries += p
+//     }
+//     sum.push(paySalaries)
+
+//     return sum
 // }
 
-// console.log(sum);
+// console.log(calcPay(Object.values(salaries)));
+
+
+
+
+
 
 
 ////--------------------------------------------------------------------------
 // 4-MASALA
 ////--------------------------------------------------------------------------
 
- const sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+//  const sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
- const toqSon = []
- const juftSon = []
+//  let sonla = []
 
- for(let s of sonlar){
+//   const calcSum = function(f){
+//     let toqSon = 0
+//     let juftSon = 0
 
-    if( s % 2 == 0){
-        juftSon.push(s)
-    }else{
-        toqSon.push(s)
-    }
+//     for(let s of f){
+//         if( s % 2 == 0){
+//             juftSon += s
+//         }else{
+//             toqSon += s
+//         }
+//     }
+//     sonla.push(juftSon)
+//     sonla.push(toqSon)
 
-    function calcSum()
- }
+//     return sonla
+//  }
+//  console.log(calcSum(sonlar));
 
- console.log(toqSon);
+
+
+
 
 
 ////--------------------------------------------------------------------------
 // 5-MASALA
+const aa = [ -4, 2,  20,]
+let ss = []
+for(let i = aa[0]; i <= aa[aa.length -1]; i++ ){
+
+    ss.push(i)
+}
+
+console.log(ss);
