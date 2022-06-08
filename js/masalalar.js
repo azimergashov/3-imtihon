@@ -2,6 +2,11 @@
 
 // 1-MASALA
 
+const aaaa = prompt("sonni kiriting")
+
+
+console.log(aaaa);
+
 
 
 

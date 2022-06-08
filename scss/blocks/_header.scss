@@ -1,3 +1,17 @@
 .item{
     border-radius: 15px !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    width: 22% !important;
+}
+
+.item + .item{
+     //margin-top: 10px !important;
+     max-width: 350px;
+    // margin-left: 10px !important;
+}
+
+.divWrapper{
+    min-height: 150px;
 }
